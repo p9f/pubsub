@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "node index.js",
+    "dev": "PORT=3000 URL=http://localhost:3000 node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
